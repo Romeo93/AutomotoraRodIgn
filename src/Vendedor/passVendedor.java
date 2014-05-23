@@ -132,7 +132,9 @@ int i =0;
 if(i<=3 && terranop.next())
 {
    System.out.println("Usuario encontrado :D");
-    
+   venderCliente mod = new venderCliente();
+   mod.lblRutV.setText(txtID.getText());
+   mod.setVisible(true);
   
 
    this.dispose();
